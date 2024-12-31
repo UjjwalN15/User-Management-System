@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DashBoard</title>
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="flex-center">
+        <div class="container">
+            <nav class="flex">
+                <div class="logo-container">
+                    <h3><a href="user_home.html" title="Landing Page">User Management System</a></h3>
+                </div>
+                <!-- <div class="menu">
+                    <ul class="flex">
+                        <li><a href="create_post.html" title="Create a post">Create a Post</a></li>
+                        <li><a href="my_posts.html" title="My Posts">My Posts</a></li>
+                    </ul>
+                </div> -->
+                <div class="name-container">Hi <a href="/user_dashboard.html" title="Dashboard">prajwalneupane01@gmail.com</a></div>
+            </nav>
+        </div>
+    </header>
+    <section class="dashboard-content flex-center" id="dashboard">
+        <div class="container flex flex-column">
+            <h2>DashBoard</h2>
+            <form action="" method="post" class="flex-column" id="change_profile_form">
+                <div class="email space-between">
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" value="ujjwalneupane01@gmail.com" readonly>
+                    </div>
+                    <i id="edit_email" class="fa-solid fa-pen-to-square"></i>
+                </div>
+                <div class="password space-between">
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="text" id="password" name="password" value="password" readonly>
+                    </div>
+                    <i id="edit_password" class="fa-solid fa-pen-to-square"></i>
+                </div>
+                <div class="edit_password_box flex-column">
+                    <label for="new_password">Enter your new password : </label>
+                    <input type="password" id="new_password">
+                    <label for="confirm_password">Confirm your new password : </label>
+                    <input type="password" id="confirm_password">
+                </div>
+                <input type="submit" value="Save">
+            </form>
+        </div>
+    </section>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
