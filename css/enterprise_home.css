@@ -17,6 +17,9 @@ nav{
     position: fixed;
     z-index: 1000;
 }
+.name-container a{
+    color: black;
+}
 ul{
     gap: 30px;
 }

@@ -16,7 +16,6 @@ edit_email.addEventListener('click', function() {
 document.getElementById('edit_password').addEventListener('click', function() {
     const edit_password_box = document.querySelector('.edit_password_box');
     const password = document.getElementById('password');
-    const dashboard = document.getElementById('dashboard');
     
     // Check if the element's display is 'none' or not set, then toggle
     if (edit_password_box.style.display === 'none' || edit_password_box.style.display === '') {
